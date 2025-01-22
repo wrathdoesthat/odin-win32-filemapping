@@ -13,8 +13,8 @@ INFORMATION_TEXT :: "Welcome to the Ginger Dome"
 USE_FILE :: true
 
 Awesome_Data :: struct {
-	secrets : u64,
-	information : [128]rune,
+	secrets :         u64,
+	information :     [128]rune,
 	gingers_spotted : i32
 }
 
